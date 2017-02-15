@@ -1,0 +1,11 @@
+{
+  "name": "asciiart",
+  "version": "1.0.0",
+  "description": "Converts image to ascii",
+  "main": "index.js",
+  "author": "Jakub Jantosik",
+  "license": "MIT",
+  "dependencies": {
+    "gm": "^1.23.0"
+  }
+}

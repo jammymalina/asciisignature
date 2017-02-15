@@ -1,0 +1,6 @@
+{
+  "execPath": "/usr/bin/gcc",
+  "gccDefaultCFlags": "-Wall -std=c11 -fopenmp",
+  "gccErrorLimit": 15,
+  "gccSuppressWarnings": true
+}
