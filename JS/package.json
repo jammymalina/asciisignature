@@ -6,6 +6,8 @@
   "author": "Jakub Jantosik",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.1.4",
+    "get-pixels": "^3.3.0",
     "gm": "^1.23.0"
   }
 }
