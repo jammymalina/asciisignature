@@ -33,10 +33,10 @@ function computeAverage(image, width, height, x1, y1, x2, y2) {
 
 function reduce(image, n) {
     var result = [];
-    for (let i = 0; i < image.length; i += n) {
+    for (var i = 0; i < image.length; i += n) {
         var sum = 0;
         var count = 0;
-        for (let j = 0; j < Math.min(3, n) && i + j < image.length; j++) {
+        for (var j = 0; j < Math.min(3, n) && i + j < image.length; j++) {
             sum += image[i + j];
             count++;
         }
@@ -88,7 +88,7 @@ exports.handler = function(event, context, callback) {
                 });
             });
         },
-        function getPixels(contentType, buffer, width, height, next) {
+        function getImage(contentType, buffer, width, height, next) {
             getPixels(buffer, contentType, function(err, pixels) {
                 if (err) {
                     next(err);
